@@ -1,6 +1,17 @@
-# Foobar
+# Loved
 
 This project this built react native for a custom action sheet, I've used the functional approach for this
+
+
+# iOS Demoe Video
+https://user-images.githubusercontent.com/8893968/133483899-3b41c4c0-1177-4345-a3f9-f2f940259e9b.mp4
+
+
+
+# Android Demo Video
+https://user-images.githubusercontent.com/8893968/133484321-6ef1d2ee-0e26-4acf-a1c9-dae2eddbbf98.mp4
+
+
 
 ## To run the project on machine
 
