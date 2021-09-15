@@ -13,7 +13,7 @@ export function HomeSheetContent({navigation, sheetClose}) {
         }}
         img={require('../../../assets/images/transferCash.png')}
         heading="Transfer Cash"
-        text="Add and withdraw cash."
+        text="Add and withdraw cash"
       />
       <Item
         onPress={() => {
@@ -22,7 +22,7 @@ export function HomeSheetContent({navigation, sheetClose}) {
         }}
         img={require('../../../assets/images/save.png')}
         heading="Save for something new"
-        text="Save & invest towards something in the future."
+        text="Save & invest towards something in the future"
       />
       <Item
         onPress={() => {
@@ -30,8 +30,8 @@ export function HomeSheetContent({navigation, sheetClose}) {
           sheetClose();
         }}
         img={require('../../../assets/images/invite.png')}
-        heading="Invite Victor"
-        text="Give Victor access to login to their account."
+        heading="Invite Cameron"
+        text="Give Cameron access to login to their account"
       />
       <Item
         onPress={() => {
@@ -47,9 +47,19 @@ export function HomeSheetContent({navigation, sheetClose}) {
           navigation.navigate('Details');
           sheetClose();
         }}
-        img={require('../../../assets/images/settings.png')}
+        img={require('../../../assets/images/share.png')}
         heading="Settings and Account Documents"
-        text="View and change settings. Access monthly statements, trade confirms and tx docs."
+        text="View and change settings. Access monthly statements, trade confirms and tax docs."
+        noBorder
+      />
+      <Item
+        onPress={() => {
+          navigation.navigate('Details');
+          sheetClose();
+        }}
+        img={require('../../../assets/images/settings.png')}
+        heading="Delete Account"
+        text="Remove an account that is not in use."
         noBorder
       />
     </View>

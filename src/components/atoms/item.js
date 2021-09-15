@@ -31,6 +31,14 @@ const styles = StyleSheet.create({
     borderBottomWidth: 0,
   },
   img: {marginHorizontal: 9},
-  heading: {fontSize: 16, color: colors.TEXT},
-  text: {fontSize: 11, color: colors.LIGHT_TEXT},
+  heading: {
+    fontSize: 16,
+    color: colors.TEXT,
+    fontFamily: 'Manrope-Bold',
+  },
+  text: {
+    fontSize: 12,
+    color: colors.LIGHT_TEXT,
+    fontFamily: 'Manrope-Regular',
+  },
 });

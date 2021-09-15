@@ -9,7 +9,7 @@ function HomeScreen({navigation}) {
 
   return (
     <View style={styles.main}>
-      <ActionSheet show={modalState} setModalState={setModalState} height={400}>
+      <ActionSheet show={modalState} setModalState={setModalState} height={460}>
         <HomeSheetContent
           navigation={navigation}
           sheetClose={() => setModalState(false)}
