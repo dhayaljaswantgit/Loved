@@ -1,6 +1,6 @@
 # Loved
 
-This project this built react native for a custom action sheet, I've used the functional approach for this
+This project this built on React Native for a custom action sheet demonstration, I've used the functional approach for this
 
 
 # iOS Demoe Video
